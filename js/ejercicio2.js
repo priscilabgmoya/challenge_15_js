@@ -7,7 +7,7 @@ let nombre_apellido = prompt("Ingrese Nombre y Apellido Completo");
 
 if(nombre_apellido !== null){
     let nombre_apellido_minuscula = nombre_apellido.toLocaleLowerCase();
-    if(nombre_apellido_minuscula.includes("a") === true && nombre_apellido_minuscula.includes("m") ){
+    if(nombre_apellido_minuscula.includes("a") === true && nombre_apellido_minuscula.includes("m") === true){
         console.log("si contiene");
     }else{
         console.log("no contiene");
